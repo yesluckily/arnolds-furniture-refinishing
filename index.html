@@ -26,13 +26,26 @@ REFINISHING" />
     <meta name="twitter:image:alt" content="Arnold&#39;s Furniture Refinishing" />
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Hind+Mysuru:wght@300;400;500;600;700&display=swap');
 
   body {
     background-color: #121212;
     color: #bebebe;
-    font-family: 'sans serif';
+    font-family: 'Hind Mysuru';
+    letter-spacing: 1px;
     text-align: center;
     justify-content: space-between;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
+  }
+
+  a:hover {
+    color: #00b2ff;
   }
 
   h1 {
@@ -43,18 +56,43 @@ REFINISHING" />
   }
 
   .header {
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    margin-top: 0;
     background-image: url(https://images.unsplash.com/photo-1485470733090-0aae1788d5af?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbHBhcGVyJTIwNGt8ZW58MHx8MHx8fDA%3D);
     background-size: cover;
-    margin-top: 0;
-    height: 50vh;
-  }
+    z-index: 1;
+}
 
+br {
+    user-select: none;
+}
+
+.navi {
+    position: fixed;
+    background-color: rgba(45, 45, 45, 0.6);
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#id {
+    
+}
 </style>
+
+<div class="navi">
+<a href="https://arnoldsfurniturerefinishing.com">Arnold's Furniture Refinishing</a>
+<a href="https://arnoldsfurniturerefinishing.com/contact" style="text-align: right">Contact</a>
+
+</div>
 <div class="header">
     <h1>Arnold's Furniture Refinishing</h1>
-    <p style="font-size: 1.3em;">Vista, California</p>
+    <p>Vista, California</p>
 </div>
+<br><br>hkh
   </head>
   <body>
 </html>
